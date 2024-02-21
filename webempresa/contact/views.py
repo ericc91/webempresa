@@ -18,7 +18,7 @@ def contact(request):
             from_email="no-contestar@gmail.com",
             to=["eritovaradero@gmail.com"],
             reply_to=[email],
-            headers={'from': "no_contestar@gmail.com"}
+            headers={'from': "no_response@gmail.com"}
          )
          try:
           email.send()
