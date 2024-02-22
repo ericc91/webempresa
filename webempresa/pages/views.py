@@ -8,5 +8,6 @@ def page(request, page_id, page_slug):
 
 def login(request ):
     #sgdfsgS
-    #modified by login
+    #modified by 'login' error
+    #modified by main
     pass
