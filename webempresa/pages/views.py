@@ -7,4 +7,5 @@ def page(request, page_id, page_slug):
     return render(request, 'pages/sample.html', {'page': page})
 
 def login(request ):
+    #sgdfsgS
     pass
