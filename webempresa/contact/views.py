@@ -15,7 +15,7 @@ def contact(request):
          email = EmailMessage(
             subject="La Caffettiera: Nuevo mensaje de contacto",
             body=f"De {name} <{email}>\n\nEscribió:\n\n{content}",
-            from_email="no-contestar@gmail.com",
+            from_email="no_response@gmail.com",
             to=["eritovaradero@gmail.com"],
             reply_to=[email],
             headers={'from': "no_response@gmail.com"}
