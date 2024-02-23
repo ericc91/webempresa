@@ -1,2 +1,2 @@
 # webempresa-site
- Curso
+ Practica en Git y github
