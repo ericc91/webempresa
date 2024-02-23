@@ -6,8 +6,4 @@ def page(request, page_id, page_slug):
     page = get_object_or_404(Pages, id = page_id)
     return render(request, 'pages/sample.html', {'page': page})
 
-def login(request ):
-    #sgdfsgS
-    #modified by 'login' error
-    #modified by main
-    pass
+
